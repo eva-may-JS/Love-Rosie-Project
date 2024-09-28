@@ -279,3 +279,28 @@ footer {
     position: relative;
     width: 60%;
 }
+
+
+/* ----------------------------------------Skills */
+
+.progress {
+    position: relative;
+    /* Changing the height of the progress wrapper automatically changes the height of the progress bar inside */
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    /* Absolute child of a relative parent, positions the child relative to the parent.
+    Therefore when we set left: 0; the child sits at the far left of the parent (the progress bar) */
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
